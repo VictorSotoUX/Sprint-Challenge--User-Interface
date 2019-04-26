@@ -34,22 +34,32 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+   Semantic HTML is an approach and action in the procces of web development in which the developer adds meaning to the markup language that is HTML through the use of semantic tags. These tags can sometimes provde both semantic meaning and presentational guides. Basically, HTML is a language that provides "instructions" to the browser on how to present things, with semantic HTML is provides the developer (and future developers) an indication on what the content inside those tags is about.  
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+   Display:block is used within the creation of the HTML document itself to determine the "boxes" in which content will be inside of and opens up the system for the basics of the CSS box model. Furthermore a "display:block" element tends to indicate a more important element within the page (altough this is not always the case). With "display: inline;" there is no option for creating a box as you are actually modifying (or indicating) something within a line itself. For example the emphasis in certain cases etc. For this reason "display: inline;" doesn't necessarily affect the styling model which is another big difference.  
 
 3. What are the 4 areas of the box model?
 
+  Padding, content, border and margins. 
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+  The cross-axis. 
+
 5. Explain why git is valuable to a team of developers.
+
+  Git is valuable because it facilitates collaboration and includes the history of the code so changes are saved within versions. It also let developers communicate through specific comments on instances of code they're pushing. This makes git a very valuable tool for a team of developers.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [X] Create a forked copy of this project.
+- [X] Add your project manager as collaborator on Github.
+- [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [X] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
  
