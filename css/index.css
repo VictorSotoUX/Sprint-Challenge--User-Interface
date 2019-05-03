@@ -66,6 +66,29 @@ p {
     line-height: 1.4;
 }
 
+/* CSS Code */ 
+
+.top-bar {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav {
+    display:flex;
+    justify-content: space-evenly;
+    padding: 20px; 
+    margin-top: 5px;
+    flex-grow: 6; 
+    border: 1px solid red; 
+}
+
+.nav li{
+    display: flex; 
+    align-items: flex-end;
+}
+
+
 .container {
     width: 800px;
     margin: 0 auto;
